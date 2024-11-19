@@ -12,9 +12,13 @@ button.addEventListener("click", () => {
     
     if (cleanedInput === cleanedInput.split('').reverse().join('')) {
         p.textContent = `${input.value}: is a palindrome`;
+        p.style.color = "#9fffc7";
+
     } else {
         p.textContent = `${input.value}: is not a palindrome`;
+        p.style.color = "red";
     }
     input.value = ""
+    p.style.fontFamily = "Arial, sans-serif, serif";
     }   
 });

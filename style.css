@@ -1,33 +1,50 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
 body {
     max-width: 600px;
     margin:  30vh auto;
+    background-color: #142d4c;
 }
 
 h1 {
     font-size: 3rem;
-    font-family: sans-serif, serif, arial;
     text-align: center;
 }
 
 .palindrome-div {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    background-color: #113f67;
+    padding: 30px;
+    border-radius: 20px;
 }
 
 label {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 input {
+    border-bottom: solid 3px #385170;
     border-top: none;
     border-left: none;
     border-right: none;
+    background-color: #142d4c;
+    color: white;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 10px;
 }
 
 button {
-    border-radius: 20%;
+    border-radius: 10px;
     width: 90px;
     height: 30px;
+    background-color: #142d4c;
+    color: white;
 }
 
 body {
@@ -40,4 +57,11 @@ body {
 
 #info-text {
     text-align: center;
+    font-size: 1.6rem;
+}
+
+@media (max-width: 600px) {
+    body {
+        max-width: 400px;
+    }
 }
