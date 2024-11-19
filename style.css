@@ -1,0 +1,43 @@
+body {
+    max-width: 600px;
+    margin:  30vh auto;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: sans-serif, serif, arial;
+    text-align: center;
+}
+
+.palindrome-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+label {
+    font-size: 1.3rem;
+}
+
+input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+button {
+    border-radius: 20%;
+    width: 90px;
+    height: 30px;
+}
+
+body {
+
+}
+
+.info {
+    
+}
+
+#info-text {
+    text-align: center;
+}

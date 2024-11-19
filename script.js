@@ -11,9 +11,9 @@ button.addEventListener("click", () => {
         let cleanedInput = input.value.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
     
     if (cleanedInput === cleanedInput.split('').reverse().join('')) {
-        p.textContent = `${input.value} is a palindrome`;
+        p.textContent = `${input.value}: is a palindrome`;
     } else {
-        p.textContent = `${input.value} is not a palindrome`;
+        p.textContent = `${input.value}: is not a palindrome`;
     }
     input.value = ""
     }   
