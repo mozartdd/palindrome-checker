@@ -18,11 +18,10 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #113f67;
+    background: linear-gradient(90deg, #142d4c, #113f67);
     padding: 30px;
     border-radius: 20px;
-    box-shadow: #142d66 0px 10px;
-
+    box-shadow: #113f67 -3px 5px 5px;
 }
 
 label {
@@ -30,16 +29,14 @@ label {
 }
 
 input {
-    border-bottom: solid 3px #142d4c;
-    border-top: none;
-    border-left: none;
-    border-right: none;
+    border: solid 3px #142d4c;
     background-color: #142d4c;
     color: white;
     height: 30px;
     margin-right: 10px;
     opacity: 0.5;
     border-radius: 10px;
+    box-shadow: #142d4c 3px -5px 5px;
 }
 
 button {
@@ -49,23 +46,30 @@ button {
     background-color: #142d4c;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    box-shadow: #113f67 -2px 2px 5px;
 }
 
 button:hover {
     cursor: pointer;
 }
 
-body {
-
+#result {
+    margin-top: 30px;
+    font-size: 1.4rem;
 }
 
 .info {
-    
+    margin-top: 30px;
+    background-color: #77ff77;
+    border-radius: 20px;
 }
 
 #info-text {
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
+    color: black;
+    padding: 15px;
 }
 
 @media (max-width: 600px) {
